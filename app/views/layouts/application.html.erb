@@ -9,6 +9,17 @@
   </head>
 
   <body>
+    <header>
+      <div class="header-logo">
+        <%= link_to("TRUST","/") %>
+      </div>
+      <ul class="header-menus">
+        <li>
+          <%= link_to("TRUSTとは","/about") %>
+        </li>
+      </ul>
+     </header>
+
     <%= yield %>
   </body>
 </html>
