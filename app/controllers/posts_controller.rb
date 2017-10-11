@@ -17,6 +17,7 @@ class PostsController < ApplicationController
       #{name}さんの弱みをしいてあげるなら？
       #{name}さんは何をしているひと？
       #{name}さんのスキルは？
+      #{name}さんをあなたが採用するなら、どんなポジションにしますか？
   )
     @message = messages.sample
   end
