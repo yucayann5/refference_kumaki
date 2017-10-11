@@ -1,19 +1,7 @@
 <div class="main posts-new">
   <div class="container">
     <h1 class="form-heading">
-      <script type="text/javascript">
-        var name = "岩崎";
-        var a=[name +"さんの強みは？",
-               name + "さんの性格は？",
-               name + "さんとの関係は？",
-               name + "さんの尊敬しているところは？",
-               name + "さんの好きなところは？",
-               name + "さんの弱みを強いてあげるなら？",
-               name + "さんは何をしている人？"];
-        var x;
-        x=Math.floor(Math.random()*7); 
-        document.write(a[x]);
-      </script>
+      <%= @message %>
     </h1>
     <p class="form-body">※リロードすると質問が変わります</p>
     <%= form_tag("/posts/create") do %>
