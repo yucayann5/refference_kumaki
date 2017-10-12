@@ -8,16 +8,16 @@ class PostsController < ApplicationController
   end
 
   def new
-    name = "岩崎"
+    name = "柴山"
     messages = %W(
       #{name}さんの強みは？
-      #{name}さんの性格は？
+      #{name}さんは何をしていたひと？
       #{name}さんとの関係は？
       #{name}さんの尊敬しているところは？
       #{name}さんの弱みをしいてあげるなら？
       #{name}さんは何をしているひと？
       #{name}さんのスキルは？
-      #{name}さんをあなたが採用するなら、どんなポジションにしますか？
+      あなたが#{name}さんの上司だったら、どんなポジションにアサインしますか？
   )
     @message = messages.sample
   end
