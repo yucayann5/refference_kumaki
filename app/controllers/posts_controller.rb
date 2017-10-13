@@ -8,7 +8,7 @@ class PostsController < ApplicationController
   end
 
   def new
-    name = "近藤"
+    name = "熊木"
     messages = %W(
       #{name}さんの強みは？
       #{name}さんは何をしていたひと？
